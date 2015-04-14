@@ -1,0 +1,4 @@
+# HitronTechnologies CVE-30360  Cable Status Statistics
+# Upstream
+# modulation: 2=TDMA
+# timestamp (iso)	port	channelID	frequency (MHz)	symbolRate (ksps)	modulation	signalStrength (dBμV)

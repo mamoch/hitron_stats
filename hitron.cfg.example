@@ -1,0 +1,7 @@
+[Login]
+username=admin
+password=password
+
+[Stat files]
+downFile=hitron_stats_down.dat
+upFile=hitron_stats_up.dat

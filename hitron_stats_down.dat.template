@@ -1,0 +1,4 @@
+# HitronTechnologies CVE-30360  Cable Status Statistics
+# Downstream
+# modulation: 1=64QAM, 2=256QAM
+# timestamp (iso)	port	ChannelID	frequency (MHz)	sympbolRate (ksps)	modulation	signalStrenth (dBμV)	signalNoiseRatio (dB)
