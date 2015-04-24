@@ -44,11 +44,23 @@ def plot_data(upDown, col, ylabel, title):
     ax.set_title(title)
 ##################################################
 
+##################################################
+# save function
+def save_plot(name):
+    plt.savefig('hitron_stats_'+name+'.pdf')
+    #plt.savefig('hitron_stats_'+name+'.png', dpi=300)
+#################################################
+
 plot_data('down', 3, 'frequency (MHz)', 'Downstream: frequency')
+save_plot('downFrq')
 plot_data('down', 6, u'signal strenth (dBμV)', 'Downstream: signal strength')
+save_plot('downSigStr')
 plot_data('down', 7, 'SNR (dB)', 'Downstream: signal-to-noise ratio')
+save_plot('downSNR')
 
 plot_data('up', 3, 'frequency (MHz)', 'Upstream: frequency')
+save_plot('upFrq')
 plot_data('up', 6, u'signal strenth (dBμV)', 'Upstream: signal strength')
+save_plot('upSigStr')
 
 plt.show()
